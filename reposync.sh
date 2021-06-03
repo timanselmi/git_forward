@@ -63,6 +63,11 @@ git push origin $BRANCH_TARGET
 
 ### Later development
 
+
+# mail an user aus config bei jedem push
+# commit message in mail (in DE)
+# und hook an eine URL
+
 # mail when synch problem (bash script error hook)
 
 # merge conflict solving strategy
