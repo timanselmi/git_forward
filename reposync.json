@@ -1,0 +1,14 @@
+{
+    "source_repo": {
+        "directory": "<source_repo_dir>",
+        "url": "https://<source_repo.git>",
+        "branch": "feature/app_new_feature"
+    },
+    "target_repo": {
+        "directory": "<target_repo_dir>",
+        "url": "https://<target_repo.git>",
+        "branch": "feature/new_app",
+        "name": "Your Name in Targe",
+        "email": "YourEmail@target.sytem"
+    }
+}
