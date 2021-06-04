@@ -75,6 +75,8 @@ git push origin $BRANCH_TARGET
 # commit message in mail (in DE)
 # und hook an eine URL
 
+echo "$SOURCE_COMMIT_MESSAGES" | mail -s "New commit to $URL_TARGET/$BRANCH_TARGET" $EMAIL_TARGET 
+
 # mail when synch problem (bash script error hook)
 
 # merge conflict solving strategy
