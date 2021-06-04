@@ -13,6 +13,13 @@ if [[ $RSYNC = "" ]]; then
     echo "Rsync not available"
     exit 1
 fi
+# testing if jq is available
+JQ=$(which jq|| true)
+if [[ $JQ = "" ]]; then
+    echo "jq not available"
+    exit 1
+fi
+
 
 # Read config into vars
 URL_SOURCE=$(jq -r '.source_repo.url' $CONFIGFILE)
